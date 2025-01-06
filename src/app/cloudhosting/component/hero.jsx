@@ -5,7 +5,7 @@ function page() {
           <div className='grid  col-span-7 grid-cols-[60%_40%]  bg-gradient-to-br from-[#FFFFFF] via-[#F3F8FC] to-[#F6FBFF] '>
               <div className='mx-auto pl-6 pt-8'>
                   <p className="font-semibold text-[14px] pb-4 font-poppins ">Cloud Hosting in Nepal</p>
-                  <h1 className="font-bold text-[40px] font-montserrat leading-[50px] pb-4 w-2/3">
+                  <h1 className="font-bold text-[40px] font-montserrat leading-[50px] pb-4">
                   Unleash the power of Cloud Hosting
                   </h1>
                   <p className="w-3/4 text-[16px] font-dmsans ">Elevate your online business with optimized hosting solutions, ensuring fast, secure, and scalable ecommerce platforms for enduring success and continuous growth.</p>
@@ -23,14 +23,14 @@ function page() {
           <div className="col-span-3 rounded-lg  ">
               <div className="bg-[#5468FF] text-center text-white mb-6 flex flex-col items-center py-16 gap-2 pb-12 rounded-xl">
               <p>3-year purchase required. </p>
-              <h2 className="font-bold text-[25px] w-2/3 tracking-wide">
+              <h2 className="font-bold  w-2/3 tracking-wide font-montserrat text-[25px]">
               Available only at Rs. 1,099 /mo 
               </h2>
-              <button className="text-black bg-white px-3 py-2">Host Website</button>
+              <button className="text-black bg-white px-3 py-2 text-[17px] font-dmsans">Host Website</button>
               </div>
   
-              <div className="bg-[#EDF8FF] flex items-center justify-between  rounded-xl pl-2">
-              <p className="font-bold text-lg h-36">Optimize <br></br>your<br /> WordPress <br/>site</p>
+              <div className="bg-[#EDF8FF] flex items-center justify-between  rounded-xl pl-2 font-dmsans text-[20px]">
+              <p className="font-bold text-lg ">Scale UP<br></br> with<br></br> Cloud Hosting</p>
               <img className="h-48" src="lock.png"  />
             </div>
   

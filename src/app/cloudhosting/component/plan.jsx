@@ -87,14 +87,14 @@ const data = [
   return (
     <div>
         <div className="text-center container mt-6 ">
-            <h1 className="font-semibold text-3xl">
+            <h1 className="font-semibold text-3xl pb-2 font-montserrat text-[18px]">
             Choose Your <span className="text-blue-800">Cloud Hosting
             </span> Plan
             </h1>
-            <p className="text-[18px]">Tailored Plans to Elevate and Empower Every Aspect of Your Online Presence</p>
+            <p className="text-[18px] font-poppins ">Tailored Plans to Elevate and Empower Every Aspect of Your Online Presence</p>
 
         </div>
-       <div className="flex justify-center mt-5 ">
+       <div className="flex justify-center mt-5 font-dmsans">
         <div className="flex rounded-full border-[1px] px-1 py-1 ">
         <button
             className={`p-4  px-8 text-sm font-semibold text-center rounded-full  ${
@@ -104,7 +104,7 @@ const data = [
             } rounded-l-full`}
             onClick={() => setSelect("Annual")}
           >
-            <span>Annual Term</span>
+            <span className="text-[19px]">Annual Term</span>
             <p
               className={`text-xs ${
                 select === "Annual"
@@ -123,7 +123,7 @@ const data = [
             } rounded-r-full`}
             onClick={() => setSelect("Tri-annually")}
           >
-            <span>Tri-annually</span>
+            <span className="text-[19px]"> Tri-annually</span>
             <p
               className={`text-xs ${
                 select === "Tri-annually"
@@ -140,23 +140,23 @@ const data = [
        {data.map((data, index) =>
     (
         <div className=" text-sm pt-12 border pb-6 pl-4 " key={index}>
-            <p className="font-bold pb-4">{data.title}</p>
-            <p className="text-sm pb-6 font-sans">{data.description}</p>
-            <span className="font-bold">RS</span>
-            <span className="font-bold text-3xl ">{" "}{select === "Annual" ? "200" : "390"}</span><span>/mo</span>
+            <p className="font-bold pb-4 font-dmsans text-[18px]">{data.title}</p>
+            <p className="text-sm pb-6 font-dmsans text-[11.6]">{data.description}</p>
+            <span className="font-bold text-sm font-dmsans">RS</span>
+            <span className="font-bold text-3xl text-[38.88px] ">{" "}{select === "Annual" ? "200" : "390"}</span><span className="text-sm font-dmsans">/mo</span>
             <p> </p>
 
-            <span className="bg-[#BBFFAA] block mb-4 mt-4">{data.term}</span>
-            <p className="text-sm font-sans">you pay{data.upfront}today</p>
-            <p className="text-sm pb-3 font-sans">Renews Jan 2026 for{data.renewal}</p>
+            <span className="bg-[#BBFFAA] block mb-4 mt-4 font-dmsans">{data.term}</span>
+            <p className="text-sm font-dmsans">you pay{data.upfront}today</p>
+            <p className="text-sm pb-3 font-dmsans">Renews Jan 2026 for{data.renewal}</p>
 
-            <button className="w-full py-2 border-2 mr-4 text-center font-semibold text-lg hover:shadow-lg hover:text-white hover:bg-black transition-all duration-300 ease-in-out">
+            <button className="w-full py-2 border-2 mr-4 text-center font-semibold  font-dmsans text-lg hover:shadow-lg hover:text-white hover:bg-black transition-all duration-300 ease-in-out">
               Buy Now
             </button>
             <ul className="text-sm text-gray-800 mt-4 p-6">
               {data.features.map((feature, i) => (
                 <li className="p-2" key={i}>
-                  <span className="text-green-500 mr-2">&#10004;</span>
+                  <span className="text-green-500 mr-2 font-dmsans text-[12.6px] font-light">&#10004;</span>
                   {feature}
                 </li>
                 
@@ -170,9 +170,9 @@ const data = [
             { data.extra && data.extra.map((data, index)=>(
                 
                 <div className="py-2 px-8" key={index}>
-                    <span className="text-green-500 mr-2">&#10004;</span>
+                    <span className="text-green-500 mr-2 font-dmsans text-[12.6] font-light">&#10004;</span>
                     {data}</div>
-            ))}
+            ))}s
         </div>
 
     ))}
