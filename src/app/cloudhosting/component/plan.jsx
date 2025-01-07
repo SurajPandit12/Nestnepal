@@ -43,7 +43,6 @@ const data = [
       title: "Extreme",
       description:
         "Empower Your Business with Cloud Hosting. Lorem Ipsum dipsum sitsum.",
-    
       term: "With a 3-yr term (50% savings)",
       upfront: "₹ 10,764.00",
       renewal: "₹ 599.00",
@@ -54,7 +53,6 @@ const data = [
         "Unlimited E-mail Accounts",
         "Unlimited Bandwidth",
         "Unlimited MySQL Databases",
-        
       ],
       extra: ["Free .COM/.NET.ORG Domain",
         "Free .COM/.NET.ORG (Rs. 4999.00/yr value) - 1 year",]
@@ -85,7 +83,7 @@ const data = [
   ];
 
   return (
-    <div>
+    <div className="container">
         <div className="text-center container mt-6 ">
             <h1 className="font-semibold text-3xl pb-2 font-montserrat text-[18px]">
             Choose Your <span className="text-blue-800">Cloud Hosting
@@ -160,9 +158,6 @@ const data = [
                   {feature}
                 </li>
                 
-
-
-
               ))}
             </ul>
 
@@ -174,7 +169,6 @@ const data = [
                     {data}</div>
             ))}s
         </div>
-
     ))}
     </div>
     </div>

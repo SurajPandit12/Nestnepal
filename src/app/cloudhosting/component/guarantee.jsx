@@ -10,7 +10,7 @@ function guarantee() {
                 expectations, ask for a refund & we will process it promptly with no questions asked.</p>
 
             </div>
-            <div className='h-[230px] w-[275px]'>
+            <div className='h-[230px] w-[275px] hidden md:flex'>
                 <img src="gurarantee.png"></img>
 
             </div>

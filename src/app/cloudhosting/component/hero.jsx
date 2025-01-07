@@ -1,7 +1,7 @@
 
 function page() {
     return (
-      <div className="grid grid-cols-10 gap-6 container">
+      <div className="grid grid-cols-1  md:grid-cols-10 gap-6 container mt-12">
           <div className='grid  col-span-7 grid-cols-[60%_40%]  bg-gradient-to-br from-[#FFFFFF] via-[#F3F8FC] to-[#F6FBFF] '>
               <div className='mx-auto pl-6 pt-8'>
                   <p className="font-semibold text-[14px] pb-4 font-poppins ">Cloud Hosting in Nepal</p>
@@ -9,9 +9,9 @@ function page() {
                   Unleash the power of Cloud Hosting
                   </h1>
                   <p className="w-3/4 text-[16px] font-dmsans ">Elevate your online business with optimized hosting solutions, ensuring fast, secure, and scalable ecommerce platforms for enduring success and continuous growth.</p>
-                  <div className="my-8">
-                  <button className='bg-[#1818B3] px-6 py-4 text-white text-[19.2px] font-dmsans'>Check Plan</button>
-                  <button className=' px-8 py-4 text-[19.2px] font-dmsans'>Get a quotation</button>
+                  <div className="sm:max-md:flex my-8">
+                  <button className='bg-[#1818B3] px-6 py-4 text-white md:text-[19.2px] font-dmsans'>Check Plan</button>
+                  <button className=' px-8 py-4 md:text-[19.2px] font-dmsans'>Get a quotation</button>
                   </div>
               </div>
               <div className='hidden sm:flex'>
@@ -21,7 +21,7 @@ function page() {
           </div>
   
           <div className="col-span-3 rounded-lg  ">
-              <div className="bg-[#5468FF] text-center text-white mb-6 flex flex-col items-center py-16 gap-2 pb-12 rounded-xl">
+              <div className="bg-[#5468FF] text-center text-white mb-6 flex flex-col items-center py-12 gap-2 pb-10 rounded-xl">
               <p>3-year purchase required. </p>
               <h2 className="font-bold  w-2/3 tracking-wide font-montserrat text-[25px]">
               Available only at Rs. 1,099 /mo 
