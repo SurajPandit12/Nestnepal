@@ -6,17 +6,23 @@ import OPtimize from "./component/optimize.jsx"
 import Plan from "./component/plan.jsx"
 import Sales from "./component/saleschat.jsx"
 import Scroll from "./component/scroll.jsx"
+import Star from "./component/star.jsx"
+import Faq from "./component/faq.jsx"
+import Tec from "./component/tec.jsx"
 function page() {
   return (
 <div>
  <Hero/>
+<Star />
 <Plan/>
-<Guarantee/>
+<Sales />
+<Scroll/>
+<Tec />
 <Features/>
 <Nest/>
-<Scroll/>
-<Sales />
 <OPtimize/>
+<Guarantee/>
+<Faq />
 </div>  
   )
 }
