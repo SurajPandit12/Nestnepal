@@ -7,7 +7,7 @@ import Plan from "./component/plan.jsx"
 import Sales from "./component/saleschat.jsx"
 import Scroll from "./component/scroll.jsx"
 import Star from "./component/star.jsx"
-import Faq from "./component/faq.jsx"
+import Faq from "./component/Faq.jsx"
 import Tec from "./component/tec.jsx"
 function page() {
   return (
