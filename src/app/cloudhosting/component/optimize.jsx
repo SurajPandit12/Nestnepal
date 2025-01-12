@@ -2,20 +2,21 @@
 function optimize() {
   return (
     <div className="container mt-8">
-         <p className="font-poppins text-[19.8px] text-[#1818B3]">Optimized Hosting</p>
+         <p className="font-poppins text-[19.8px] text-[#1818B3] ">Optimized Hosting</p>
         <div className='grid grid-cols-1 md:grid-cols-2  items-center mb-12 '>
        
-           <div className="ml-8">
-           <h1 className='text-[35.64px] font-bold  font-dmsans pb-8 max-w-[500px]'> eCommerce Hosting that's Scalable and Secure
+           <div className="ml-2 container">
+            
+           <h1 className='text-[35.64px] font-bold  font-dmsans tracking-[1%] pb-8 max-w-[500px]'> eCommerce Hosting that's Scalable and Secure
             </h1>
-            <ul className='list-disc text-[14.4px] font-poppins font-light grid gap-2 max-w-[500px]'>
+            <ul className='list-disc text-[14.4px] ml-8 font-poppins font-light grid gap-2 max-w-[500px]'>
                 <li>Scale your store as it grows with flexible hosting plans.</li>
                 <li>Built-in SSL encryption for secure transactions and customer data protection.</li>
                 <li>Automatic daily backups to safeguard your website’s data.</li>
                 <li>One-click installation for easy setup of eCommerce tools and applications.</li>
             </ul>
             <div className="mt-16">
-                  <button className='border-2 border-black px-4 py-2 font-dmsans'>See Plans & Pricing</button>
+                  <button className='border-2 border-black px-8 py-2 font-dmsans'>See Plans & Pricing</button>
              </div>
            </div>
            <div className="hidden md:flex">

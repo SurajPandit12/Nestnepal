@@ -4,12 +4,12 @@ function star() {
   return (
     <div className='container'>
         <div className='font-dmsans md:flex   mt-5 border-t-2 border-b-2'>
-           <div className='flex items-center justify-center md:max-w-[200px] pl-9 text-[18px] mr-6 '> 
+           <div className='flex items-center justify-center md:max-w-[200px] pl-4 font-dmsans text-[18px] mr-6 '> 
            <p>Trusted and recommended over</p>
            </div>
 
-           <div className='border-x-[2px] border-black h-full md:h-[80px] my-8'></div>
-           <div className='grid lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 md:ml-10  gap-4  justify-center items-center'>
+           <div className='border-x-[2px] border-black h-full md:h-[80px] my-8 mx-8 '></div>
+           <div className='grid lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 md:ml-10  gap-4 container justify-center items-center'>
            <div>
            <p className='flex h-[25px] w-[26px] pb-2 font-poppins text-[18px] font-bold '>
             <img src="st.png"></img>

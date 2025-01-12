@@ -45,18 +45,18 @@ function Faq() {
   ];
 
   return (
-    <div className=" container  ">
-      <div className="text-center font-montserrat text-2xl font-bold mb-5">
+    <div className=" container mt-8 ">
+      <div className="text-center font-montserrat text-[46.52px] font-bold mb-5">
         <h1>Web Hosting FAQ</h1>
       </div>
-      <div className="container w-2/3">
+      <div className="container w-2/3  font-dmsans text-[22px]">
         {faqItems.map((item, index) => (
           <div key={index} className=" border-b border-gray-300 py-4">
             <div
               onClick={() => setOpen(open === index ? null : index)}
-              className="cursor-pointer flex justify-between items-center"
+              className="cursor-pointer flex justify-between  items-center"
             >
-              <span className="">{item.question}</span>
+              <span className="max-w-[590px] font-dmsans">{item.question}</span>
               <img
                 className={`transform transition-transform duration-300 h-6 w-6 ${
                   open === index ? "rotate-180" : "rotate-0"

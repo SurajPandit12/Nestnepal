@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
 
-      container:{
-        center: true
+      container: {
+        center: true,
       },
 
       fontFamily: {

@@ -27,7 +27,7 @@ function Scroll() {
   return (
     <div className="container mt-5 px-4">
       <div className="grid grid-cols-1 md:grid-cols-[30%_70%]">
-        {/* Image Section */}
+    
         <div className="flex items-center justify-center">
           <img
             className="object-contain drop-shadow-lg rounded-[7.2px] h-[300px] md:h-[406px] w-[230px] md:w-[308px]"
@@ -36,7 +36,7 @@ function Scroll() {
           />
         </div>
 
-        {/* Text and Arrows Section */}
+    
         <div className="flex flex-col justify-center items-start w-full md:w-2/3 md:mx-auto">
           <div>
             <div key={currentIndex}>
@@ -46,9 +46,9 @@ function Scroll() {
             <div className="relative w-full md:w-[666px] h-[1.5px] bg-gradient-to-r from-white via-gray-600 to-white"></div>
           </div>
           <div className="flex justify-between w-full pt-6">
-            <div key={currentIndex}>
-              <h2 className="text-[16px] md:text-[18px] font-semibold">{founder[currentIndex].found}</h2>
-              <p className="text-[14px] md:text-[16px]">{founder[currentIndex].name[0]}</p>
+            <div  className="font-dmsans font-medium" key={currentIndex}>
+              <h2 className="text-[16px] md:text-[18px] font-bold">{founder[currentIndex].found}</h2>
+              <p className="text-[14px] md:text-[18px]">{founder[currentIndex].name[0]}</p>
             </div>
             <div className="flex space-x-4">
               <button onClick={handlePrevious}>
