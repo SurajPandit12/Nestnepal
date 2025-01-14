@@ -24,10 +24,10 @@ function Page() {
           </div>
           <div>
           <div className="bg-[url('/bground.png')] bg-cover bg-no-repeat h-full">
-  <div className="flex justify-center h-full ">
-    <img src="groupgirl.png" className="mt-9 hidden object-cover  lg:flex h-auto w-[70%]"  />
-  </div>
-</div>
+              <div className="flex justify-center h-full ">
+              <img src="groupgirl.png" className="mt-9 hidden object-cover  lg:flex h-auto w-[70%]"  />
+              </div>
+           </div>
           </div>
         </div>
       </div>
