@@ -7,41 +7,26 @@ function Faq() {
   
   const faqItems = [
     {
-      question: "What is web hosting and how does it work?",
+      question: "What does Nest Nepal offer as a free website migration service?",
       answer: "Web hosting is a service that allows you to store your website's files on the internet, making it accessible to users online.",
     },
     {
-      question: "Is shared hosting the right type of web hosting for my site?",
+      question: "How do I request a free website migration with Nest Nepal?",
       answer: "Shared hosting is ideal for small to medium-sized websites with moderate traffic. It’s affordable and easy to manage.",
     },
     {
-      question: "What content management systems are compatible with Nest Nepal web hosting?",
+      question: "Are there any hidden fees associated with the free website migration?",
       answer: "Most popular CMS like WordPress, Joomla, and Drupal are compatible with Nest Nepal web hosting.",
     },
     {
-      question: "When do you choose shared or dedicated vCPU and RAM resources?",
+      question: "Will my website data be safe during the migration process?",
       answer: "Choose shared resources for smaller sites. Opt for dedicated resources for higher performance needs and larger websites.",
     },
     {
-      question: "What is cPanel Hosting and what are its benefits?",
+      question: "What happens after migration when some issues are faced?",
       answer: "cPanel Hosting offers a user-friendly interface for managing your website, with features like email, databases, and file management.",
     },
-    {
-      question: "Can I migrate my existing website to Nest Nepal’s shared web hosting?",
-      answer: "Yes, you can migrate your existing website to Nest Nepal’s shared hosting with minimal downtime.",
-    },
-    {
-      question: "Can I change my web hosting plan if my website grows, and I need more space?",
-      answer: "Yes, you can upgrade your hosting plan as your website grows to accommodate more resources.",
-    },
-    {
-      question: "How do I get the domain and SSL that’s included with my shared hosting plan?",
-      answer: "You can activate your domain and SSL from the control panel provided with your shared hosting plan.",
-    },
-    {
-      question: "What is AutoSSL and how does it work?",
-      answer: "AutoSSL automatically installs and renews SSL certificates for your domains, ensuring secure connections.",
-    },
+
   ];
 
   return (
