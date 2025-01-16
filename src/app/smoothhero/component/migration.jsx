@@ -6,7 +6,7 @@ function migration() {
         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-14 mt-7'>
             <div className='max-w-96 p-4 mt-6'>
                 <p className='font-dmsans text-lg tracking-[1%]'>What we Do</p>
-                <h1 className='font-montserrat text-black text-4xl font-extrabold tracking-[2%]] py-2 '>Your <span className='text-blue-600'>Website,<br/> </span >Moved with <span className='text-blue-600'> Care !</span></h1>
+                <h1 className='font-montserrat text-black text-4xl font-extrabold tracking-[2%]] py-2 '>Your <span className='text-blue-800'>Website,<br/> </span >Moved with <span className='text-blue-800'> Care !</span></h1>
                 <p className='font-dmsans text-lg tracking-[1%] text-[#707070]'>Expert Solutions for Smooth and Hassle-Free Transfers</p>
             </div>
 

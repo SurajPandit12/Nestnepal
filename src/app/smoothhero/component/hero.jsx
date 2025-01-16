@@ -3,7 +3,7 @@ import Image from 'next/image'
 function hero() {
   return (
     <div className='container'>
-        <div className="bg-[url('/cloudbg.png')] bg-cover bg-no-repeat h-[670px] grid-cols-1 grid lg:grid-cols-2">
+        <div className="bg-[url('/cloudbg.png')] bg-cover bg-no-repeat h-[500px] md:h-[670px] grid-cols-1 grid lg:grid-cols-2">
             <div className='flex flex-col justify-center items-center h-full text-white'>
                 <div className='max-w-xl text-center lg:text-start '>
                     <h1 className='font-montserrat font-bold text-5xl leading-[59px]'>Migrate to Nest: Your 

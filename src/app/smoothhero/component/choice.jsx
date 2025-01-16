@@ -50,14 +50,14 @@ function Choice() {
     <div className="container">
       <div className="flex flex-col items-center justify-center w-full text-center my-12">
         <h1 className="text-4xl font-montserrat font-bold max-w-xl">
-          What makes Nest Nepal the #1 Choice for You?
+          What makes Nest Nepal the <span className='text-blue-800'>#1</span> Choice for <span className='text-blue-800'>You</span>?
         </h1>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6  ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 justify-center mx-36 ">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="bg-white shadow-xl border border-[#E3E3E3] flex items-center py-8 px-6  mx-8"
+            className="bg-white shadow-xl border border-[#E3E3E3] flex items-center py-6 px-6 "
           >
             <div className="flex items-center px-6 ">
               <Image

@@ -31,7 +31,7 @@ function optimize() {
           </div>  
           <div className='grid grid-cols-1 md:grid-cols-2 items-center '>
               <div className="rounded-3lg hidden lg:flex">
-              <img className="h-[580.14px] w-[697.95px]" src="greengirl.png"></img>
+              <img className="h-[580.14px] w-[697.95px] ml-3" src="greengirl.png"></img>
   
               </div>
               <div className="ml-10 font-dmsans">
