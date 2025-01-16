@@ -4,8 +4,8 @@ function who() {
   return (
     <div  className='container'>
         
-            <div className='grid grid-cols-2  mb-16 gap-16 mt-6'>
-              <div className=''>
+            <div className=' grid-cols-1 grid md:grid-cols-2  mb-16 gap-16 mt-6'>
+              <div className='mx-6'>
               <p className='font-bold font-poppins text-4xl  py-14 '>
                 What is WHOIs?
                 </p>

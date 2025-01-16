@@ -5,8 +5,8 @@ import Faq from "./(component)/faq"
 function page() {
   return (
     <div>
-{/* <Hero /> */}
-{/* <Who /> */}
+<Hero />
+<Who />
 <Faq/>
     </div>
   )

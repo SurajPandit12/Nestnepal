@@ -7,7 +7,7 @@ function hero() {
         <div className="bg-[url('/backing.png')] h-[700px] bg-cover relative ">
         <div className='grid grid-cols-1 lg:grid-cols-10 h-full'>
             <div className=' md:col-span-4  items-end h-full w-full hidden 2xl:flex  '>
-            <Image  width={732} height={670} alt="" src="/gridr.png"/>
+            <Image  width={732} height={670} alt="this is hero" src="/whoiswho.png" className="object-cover"/>
 
             </div>
             <div className="flex flex-col lg:items-end justify-center h-full w-full text-white gap-4 lg:absolute lg:right-[14%] md:top-10  lg:col-span-6 px-6 ">
@@ -27,15 +27,15 @@ function hero() {
               <input
                 type="text"
                 placeholder="Enter Your Name Here..."
-                className="outline-none mr-4 font-dmsans w-[80%]"
+                className="outline-none mr-4 font-dmsans w-[90%]"
               />
-              <select className="text-xl font-medium font-dmsans outline-none">
+              {/* <select className="text-xl font-medium font-dmsans outline-none">
                 <option value=".com">.com</option>
                 <option value=".net">.net</option>
                 <option value=".org">.org</option>
                 <option value=".xyz">.xyz</option>
                 <option value=".xyz">.biz</option>
-              </select>
+              </select> */}
             </div>
             <button className=" mx-auto  px-10 py-2  bg-black font-dmsans font-bold text-lg text-white rounded-md   ">
               Search
