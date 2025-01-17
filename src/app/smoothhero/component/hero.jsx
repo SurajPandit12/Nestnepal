@@ -11,8 +11,8 @@ function hero() {
                      Awaits!</h1>
                      <p className='font-dmsans font-medium text-sm py-6 max-w-lg pr-5'>Nest Nepal is here to make your website migration process smooth, hassle-free, and, best of all, completely free of charge.</p>
                      <div className="sm:max-md:flex my-8 font-dmsans">
-                  <button className='bg-white px-7 py-3  text-sm text-black  font-[500]'>Check Plan</button>
-                  <button className=' px-10 py-4 text-sm '>WhatsApp Us</button>
+                  <button className='bg-white px-7 py-3  text-sm text-black font-[500]'>Check Plan</button>
+                  <button className=' px-10 py-4 text-lg '>WhatsApp Us &#8599;</button>
                   </div>
                 </div>
 
@@ -24,6 +24,6 @@ function hero() {
         </div>
     </div>
   )
-}
+}   
 
 export default hero

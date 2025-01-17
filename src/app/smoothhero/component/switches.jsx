@@ -25,11 +25,11 @@ function Switches() {
   return (
     <div className="container flex flex-col lg:flex-row bg-[#F5F5F5] py-12 px-8 mt-6">
      
-      <div className="flex flex-col my-6 lg:w-1/3">
+      <div className="flex flex-col my-6 lg:w-1/4">
         <h1 className="font-montserrat font-semibold text-2xl mb-4 lg:max-w-56">
           Ready To Make Switch?
         </h1>
-        <p className="font-dmsans text-sm text-[#707070] mb-6 leading-relaxed text-center lg:text-left w-full md:max-w-3xl">
+        <p className="font-dmsans text-sm text-[#707070] mb-6 leading-relaxed text-center lg:text-left w-full ">
           Join the NEST Nepal family and experience top-tier web hosting. With
           our seamless migration process, superior performance, and dedicated
           support, we're the perfect choice for your hosting needs. Contact us
