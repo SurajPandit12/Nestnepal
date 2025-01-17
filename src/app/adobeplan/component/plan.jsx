@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 
 function plan() {
 
@@ -44,6 +43,10 @@ function plan() {
     ]
   return (
     <div className='container mt-8'>
+     <div className='text-center py-6'>
+     <h1 className='font-montserrat font-bold text-4xl py-2' >All G-Suite plans consist of</h1>
+     <p className='font-poppins text-sm text-[#393939]'>Get all these features with our web hosting plans.</p>
+     </div>
         <div className='grid grid-cols-3  gap-y-4'>
            {features.map((data, index)=>
         (
