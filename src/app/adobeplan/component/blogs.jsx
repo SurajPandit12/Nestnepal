@@ -18,10 +18,9 @@ function Blogs() {
       description: 'Know the essential steps required for web hosting, right from domain name to server settings.',
     },
   ];
-
   return (
     <div className="container mt-4 flex justify-center">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center    ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center ">
         {data.map((item, index) => (
           <div key={index} className="w-11/12 max-w-md my-4">
             <div>
@@ -40,5 +39,4 @@ function Blogs() {
     </div>
   );
 }
-
 export default Blogs;
