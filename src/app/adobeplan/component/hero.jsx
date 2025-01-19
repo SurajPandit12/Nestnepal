@@ -4,7 +4,8 @@ import React from 'react'
 function page() {
   return (
     <div className='container'>
-        <div className='grid grid-cols-1 lg:grid-cols-2 bg-[#270601] h-[500px] md:h-[600px] '>
+        <div className='grid grid-cols-1 lg:grid-cols-2 bg-[url("/adobebg.png")] bg-cover bg-right
+         h-[500px] md:h-[600px] '>
             <div className='text-white flex flex-col justify-center items-center w-full  '>
                 <div className='lg:w-4/5 flex flex-col gap-y-5  pl-6 text-left'>
                     <p className='font-poppins font-semibold text-sm'>Adobe for teams</p>
@@ -17,7 +18,7 @@ function page() {
                   </div>
             </div>
             <div className='hidden lg:flex items-end justify-center h-full pb-10'>
-                <Image height={509} width={625} alt='photoshop' src="/photoshop.png"/>
+                <Image height={509} width={600} alt='photoshop' src="/photoshop.png"/>
             </div>
         </div>
     </div>
