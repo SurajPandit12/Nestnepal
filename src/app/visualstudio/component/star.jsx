@@ -1,79 +1,45 @@
-import React from 'react'
+import React from "react";
 
-function star() {
+const Rating = () => {
   return (
-    <div className='container'>
-        <div className='font-dmsans md:flex   mt-5 border-t-2 border-b-2'>
-           <div className='flex items-center justify-center md:max-w-[200px] pl-4 font-dmsans text-[18px] mr-6 '> 
-           <p>Trusted and recommended over</p>
-           </div>
-
-           <div className='border-x-[2px] border-black h-full md:h-[80px] my-8 mx-8 '></div>
-           <div className='grid lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 md:ml-10  gap-4 container justify-center items-center'>
-           <div>
-           <p className='flex h-[25px] w-[26px] pb-2 font-poppins text-[18px] font-bold '>
-            <img src="st.png"></img>
-                Trustpilot
-            </p>
-         <div className='flex gap-1'>
-           <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-         </div>
-            <p className='font-dmsans'>TrustScore <span className='font-bold'>4.910,461 </span>reviews</p>
-           </div>
-
-           <div >
-           <p className='flex h-[25px] w-[26px] pb-2  font-poppins font-semibold text-[18px]'>
-            {/* <img src="st.png"></img> */}
-                Google
-            </p>
-         <div className='flex gap-1'>
-           <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-         </div>
-            <p className='font-dmsans'><span className='font-bold'>4,634 </span>Reviews | <span className="font-bold">4.4/5</span></p>
-           </div>
-
-           <div >
-           <p className='flex h-[25px] w-[26px] pb-2 '>
-           <span className='font-bold italic font-poppins'>host </span>advice
-           
-            </p>
-         <div className='flex gap-1'>
-           <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-         </div>
-            <p className='font-dmsans'><span className="font-bold">1,585 </span >Reviews | <span className="font-bold">4.6/5</span></p>
-           </div>
-
-           <div >
-           <p className='flex h-[25px] w-[26px] pb-2 font-poppins font-bold text-[18px]'>
-            {/* <img src="st.png"></img> */}
-                facebook
-            </p>
-         <div className='flex gap-1'>
-           <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-            <img src="star.png"></img>
-         </div>
-            <p className='font-dmsans'><span className='font-bold'>621</span> Reviews |<span className='font-bold'> 4.6/5</span></p>
-           </div>
-
-           </div>
+    <div className="container mx-auto px-4">
+      <div className="flex flex-col lg:flex-row border-y-2 border-[#E3E3E3] mt-12">
+        <div className="flex justify-center  items-center  px-4 lg:px-8 py-4 lg:py-0">
+          <p className="font-dmsans font-[400] text-xl leading-[28px] text-[#242424] max-w-[200px]  text-center sm:text-start    ">
+            Trusted and Recommended Over
+          </p>
         </div>
-    </div>
-  )
-}
 
-export default star
+        <div className="hidden lg:block border-x-2 border-black h-auto my-4"></div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-[66px] px-4 lg:pl-8 py-4 overflow-y-auto w-full snap-start scrollbar-hide">
+          {["trust", "GOOGLE", "advice", "facebook"].map((src, index) => (
+            <div key={index} className="text-center">
+              <img
+                className="h-[37.33px] w-[161.11px] object-contain mb-[8px] mx-auto"
+                src={`/${src}.png`}
+                alt={`${src} logo`}
+              />
+              <div className="flex justify-center h-[35.07px] w-full gap-1 mb-[8px]">
+                {[...Array(5)].map((_, i) => (
+                  <img
+                    key={i}
+                    src="/star.png"
+                    className="h-full w-auto"
+                    alt="star"
+                  />
+                ))}
+              </div>
+              <p className="font-poppins font-[400] text-[13.13px] leading-[16.8px] text-[#191919] pb-[8px]">
+                TrustScore <span className="font-[700]">4.9 10,461</span>{" "}
+                reviews
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Rating;

@@ -40,7 +40,7 @@ const data = [
       extra: [{
 
        feat: "Free .COM/.NET.ORG Domain",
-       bg:"bg-[#B25DB7]"
+       bg:"bg-[#FDD5FF]"
       }]
     },
     {
@@ -62,7 +62,7 @@ const data = [
         {feat:"Free .COM/.NET.ORG Domain",
         },
         {greet:"Free .COM/.NET.ORG Domain,(Rs. 4999.00/yr value) - 1 year",
-          bg:"bg-[#B25DB7]"
+          bg:"bg-[#FDD5FF]"
         }
       ]
     },
@@ -88,7 +88,7 @@ const data = [
         },
         {greet:"Free SSL",},
         {feat:"Free .COM/.NET.ORG Domain",
-           bg:"bg-[#B25DB7]"
+           bg:"bg-[#FDD5FF]"
         }
       ],
     },
@@ -101,7 +101,7 @@ const data = [
             Choose Your <span className="text-[#B25DB7]">Visual Studio
             </span> Plan
             </h1>
-            <p className="text-lg  text-[#393939]font-poppins ">Tailored Plans to Elevate and Empower Every Aspect of Your Online Presence</p>
+            <p className="text-lg  text-[#393939] font-poppins ">Tailored Plans to Elevate and Empower Every Aspect of Your Online Presence</p>
 
         </div>
        <div className="flex justify-center mt-5 font-dmsans">
@@ -157,7 +157,7 @@ const data = [
             <p> </p>
 
             <div className="my-2">
-            <span className="bg-[#B25DB7] font-dmsans">{data.term}</span>
+            <span className="bg-[#FDD5FF] font-dmsans">{data.term}</span>
               </div>
             <p className="text-[11px] font-dmsans text-[#707070]">you pay{data.upfront}today</p>
             <p className="text-[11px] pb-3 font-dmsans">Renews Jan 2026 for{data.renewal}</p>

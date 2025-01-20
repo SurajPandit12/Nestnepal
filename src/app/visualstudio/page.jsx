@@ -7,7 +7,7 @@ import Features from "./component/features"
 import Guarantee from "./component/guarantee"
 import Plan from "./component/plan"
 import Star from "./component/star"
-import Tec from "../zohocrm/component/tec"
+import Tec from "./component/tec"
 import Work from "./component/workspace"
 import Why from "./component/why"
 

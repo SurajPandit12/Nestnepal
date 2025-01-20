@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const why = () => {
@@ -8,17 +9,20 @@ const why = () => {
           <img className="object-contain h-[400px]" src="/asian.png" alt="" />
         </div>
         <div className="pt-[67px] max-w-[540px]">
-          <img
-            className="h-[25.02px] w-[191px] object-contain "
-            src="/public.png"
+          
+          <Image
+            className=" object-contain "
+            src="/nest.png"
             alt=""
+            height={25.02}
+            width={191}
           />
-          <p className="font-montserrat font-[700] text-[52px] leading-[64.95px] pt-[24px] pb-[16px] ">
+          <p className="font-montserrat font-[700] text-[52px] leading-[64.95px] pt-[24px] pb-[16px] text-black ">
             Why go with 
             <br />
             <span className="text-[#1818B3]">Nest Nepal</span>?
           </p>
-          <p className="font-dmsans font-[400] text-[16.59px] leading-[27px] pb-[21.1px]">
+          <p className="font-dmsans font-[400] text-sm leading-[27px] pb-[22px] ">
             We believe the best technology is only as effective as the team
             behind it. That's why we provide expert support and so much more.
           </p>

@@ -4,48 +4,48 @@ function plan() {
 
     const features=[
         {
-            title: 'Google Drive',
+            title: 'Customizable Workspaces',
             description:
-              'With this PC only app, precisely layout and style pictures, text, calendars, and border.',
+              'Tailor your workspace to suit your development needs. border.',
             imgSrc: '/drive.png',
           },
         {
-            title: 'Google Docs',
+            title: 'Intelligent Code Completion',
             description:
-              'Every Nest Nepal account comes with a free 24/7 chat and a phone support.',
+              'Speed up coding with smart code suggestions.',
             imgSrc: '/docs.png',
         },
         {
-            title: 'Google Calendar',
+            title: 'Version Control Integration',
             description:
-              'Schedule your Meetings & Manage your time.',
+              'Easily manage and track project versions.',
             imgSrc: '/calendar.png',
         },
         {
-            title: 'Google Sheets',
+            title: 'Advanced Debugging Tools',
             description:
-            'Build, edit & Share Spreadsheets Online or Offline.',    
+            'Find and fix bugs faster with advanced debugging.',    
                   imgSrc: '/sheet.png',
         },
         {
-            title: 'Google slides',
+            title: 'Cross-Platform Development',
             description:
-            'Present your ideas with google slides and stay on top in business',
+            'Build apps for multiple platforms seamlessly.',
             imgSrc: '/slides.png',
         },
         {
-            title: 'Google Chat',
+            title: 'Team Collaboration Features',
             description:
-              'Real time, Real Conversation with Chat.',
+              'Work efficiently with your team using integrated tools.',
             imgSrc: '/chatting.png',
         },
 
     ]
   return (
-    <div className='container mt-8'>
+    <div className='container my-12'>
      <div className='text-center py-6'>
-     <h1 className='font-montserrat font-bold text-4xl py-2' >All G-Suite plans consist of</h1>
-     <p className='font-poppins text-sm text-[#393939]'>Get all these features with our web hosting plans.</p>
+     <h1 className='font-montserrat font-bold text-4xl py-2' >All Visual Studio plans consist off</h1>
+     <p className='font-poppins  text-sm text-[#393939]'>Get all these features with our web hosting plans.</p>
      </div>
         <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-y-4'>
            {features.map((data, index)=>
@@ -57,7 +57,7 @@ function plan() {
                     </div>
                     <div className='flex flex-col justify-center items-center '>
                         <h1 className='font-dmsans font-medium text-xl py-2'>{data.title}</h1>
-                        <p className='text-center max-w-96 font-dmsans text-sm font-light text-[#393939] mb-4'>{data.description}</p>
+                        <p className='text-center  font-dmsans text-sm font-light text-[#393939] mb-4 tracking-[1%] max-w-56'>{data.description}</p>
                     </div>
 
 

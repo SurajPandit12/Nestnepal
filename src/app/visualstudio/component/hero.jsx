@@ -27,7 +27,7 @@ function page() {
             <div className='hidden xl:flex object-contain mb-16 z-[2]'>
                 <Image height={1200} width={900} alt='photoshop' src="/visual.png"/>
             </div>
-            <div className='absolute top-[13%] left-[72%] h-0 w-0 lg:min-h-[500px] lg:min-w-[500px] z-[1] hidden xl:block   '
+            <div className='absolute top-[45%] left-[83%] h-0 w-0 lg:min-h-[300px] lg:min-w-[300px] z-[1] hidden xl:block   '
             style={{
                 background:" radial-gradient(circle, rgba(100, 32, 106, 0.5) 0%, rgba(255, 255, 255, 1) 50%,  rgba(255, 255, 255, 1) 100%)"
             }}

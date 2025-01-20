@@ -7,37 +7,42 @@ function Faq() {
   
   const faqItems = [
     {
-      question: "What is a whois domain lookup?",
+      question: "What is web hosting and how does it work?",
       answer: "Web hosting is a service that allows you to store your website's files on the internet, making it accessible to users online.",
     },
     {
-      question: "What does the Whois Domain Database Contain?",
+      question: "Is shared hosting the right type of web hosting for my site?",
       answer: "Shared hosting is ideal for small to medium-sized websites with moderate traffic. It’s affordable and easy to manage.",
     },
     {
-      question: "What is a Whois IP Lookup?",
+      question: "What content management systems are compatible with Nest Nepal web hosting?",
       answer: "Most popular CMS like WordPress, Joomla, and Drupal are compatible with Nest Nepal web hosting.",
     },
     {
-      question: "How do I conduct a Whois search?",
+      question: "When do you choose shared or dedicated vCPU and RAM resources?",
       answer: "Choose shared resources for smaller sites. Opt for dedicated resources for higher performance needs and larger websites.",
     },
     {
-      question: "How do I Keep my Whois information updated?",
+      question: "What is cPanel Hosting and what are its benefits?",
       answer: "cPanel Hosting offers a user-friendly interface for managing your website, with features like email, databases, and file management.",
     },
     {
-      question: "What steps can I take to ensure my domain privacy is protected?",
+      question: "Can I migrate my existing website to Nest Nepal’s shared web hosting?",
       answer: "Yes, you can migrate your existing website to Nest Nepal’s shared hosting with minimal downtime.",
     },
     {
-      question: "Why are some entries hidden in My Whois Domain Lookup?",
+      question: "Can I change my web hosting plan if my website grows, and I need more space?",
       answer: "Yes, you can upgrade your hosting plan as your website grows to accommodate more resources.",
     },
     {
-      question: "How do I find available domains through the Whois database?",
+      question: "How do I get the domain and SSL that’s included with my shared hosting plan?",
       answer: "You can activate your domain and SSL from the control panel provided with your shared hosting plan.",
     },
+    {
+      question: "What is AutoSSL and how does it work?",
+      answer: "You can activate your domain and SSL from the control panel provided with your shared hosting plan.",
+    },
+  
   
   ];
 
