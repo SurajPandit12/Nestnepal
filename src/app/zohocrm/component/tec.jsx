@@ -57,20 +57,35 @@ function Page() {
             <h1 className="text-[36px] font-montserrat font-bold mb-6 text-center">
                 Detailed tech specs for all your plans!
             </h1>
-            <div className="">
-                <table className="w-full  border border-gray-400">
+            <div className="overflow-auto">
+                <table className="w-full border border-gray-400 text-sm">
                     <thead>
                         <tr>
-                        <td className=" border-x-2 p-4 text-left"></td>
+                            <td className="border-x-2 p-4 text-left"></td>
                             {data.map((plan, index) => (
-                                <td key={index} className=" border-x-2 p-8  text-left">
-                                    <div className="tracking-[1%] text-[18px] font-semibold font-dmsans mb-[25px] mt-[58px]">{plan.title}</div>
-                                    <div className="text-[38.88px] font-dmsans font-extrabold"><span className="text-sm font-dmsans font-bold">RS.</span>{plan.price}<span className="text-sm font-dmsans font-bold">/mo</span></div>
-                                    <span className="bg-[#FDD5FF] p-1 mt-[12px] mb-5 text-sm">{plan.term}</span>
-                                    <div className="text-[11px] font-dmsans font-medium  mt-2">You pay {plan.today} today</div>
-                                    <div className="text-[11px] font-dmsans font-medium mt-1">Renews {plan.renew}</div>
+                                <td
+                                    key={index}
+                                    className="border-x-2 p-8 text-left min-w-[250px]"
+                                >
+                                    <div className="tracking-[1%] text-[18px] font-semibold font-dmsans mb-[25px] mt-[58px]">
+                                        {plan.title}
+                                    </div>
+                                    <div className="text-[38.88px] font-dmsans font-extrabold">
+                                        <span className="text-sm font-dmsans font-bold">RS.</span>
+                                        {plan.price}
+                                        <span className="text-sm font-dmsans font-bold">/mo</span>
+                                    </div>
+                                    <span className="bg-[#FFD7D7] p-1 mt-[12px] mb-5 text-sm">
+                                        {plan.term}
+                                    </span>
+                                    <div className="text-[11px] font-dmsans font-medium mt-2">
+                                        You pay {plan.today} today
+                                    </div>
+                                    <div className="text-[11px] font-dmsans font-medium mt-1">
+                                        Renews {plan.renew}
+                                    </div>
                                     <div className="mt-8 border border-black text-center hover:bg-black shadow-md duration-300 ease-in-out transition-all hover:text-white hover:scale-110">
-                                        <button className="px-4 py-2  font-dmsans rounded">Buy Now</button>
+                                        <button className="px-4 py-2 font-dmsans rounded">Buy Now</button>
                                     </div>
                                 </td>
                             ))}
@@ -78,10 +93,15 @@ function Page() {
                     </thead>
                     <tbody>
                         {features.map((feature, featureIndex) => (
-                            <tr key={featureIndex}>
-                                <td className=" border-x-2 p-4 font-dmsans text-[13.63px] text-right font-bold">{feature}</td>
+                            <tr key={featureIndex} className="whitespace-nowrap">
+                                <td className="border-x-2 p-4 font-dmsans text-sm text-right font-bold">
+                                    {feature}
+                                </td>
                                 {data.map((plan, planIndex) => (
-                                    <td key={planIndex} className=" border-x-2 p-4 text-[12.8px] font-dmsans text-center">
+                                    <td
+                                        key={planIndex}
+                                        className="border-x-2 p-4 text-xs font-dmsans text-center"
+                                    >
                                         {plan.arr[featureIndex]}
                                     </td>
                                 ))}

@@ -4,12 +4,12 @@ export default function saleschat() {
       <div className="mt-4 bg-[#FFD7D7] " >
         <div className='grid lg:grid-cols-3 sm:grid-cols-2  py-10 justify-center items-center md:max-w-screen-lg md:mx-auto gap-16 font-dmsans container'>
            
-          <div className=" border-b-2 md:border-b-0 md:border-r-2">
+          <div className=" border-[#E42527] border-b-2 md:border-b-0 md:border-r-2">
   <img className="h-[46px] w-[46px]" src="chat.png"></img>
   <h1 className="font-bold font-dmsans text-[#E42527]">Sales Chat</h1>
   <p className="text-[14px]">Instant response</p>
           </div>
-          <div className="   border-b-2 md:border-b-0 md:border-r-2">
+          <div className=" border-[#E42527]  border-b-2 md:border-b-0 md:border-r-2">
   <img className="h-[46px] w-[46px]" src="email.png"></img>
   <h1 className="font-bold text-[#E42527]">Email</h1>
   <p className="text-[14px] font-dmsans">sales@nestnepal.com</p>

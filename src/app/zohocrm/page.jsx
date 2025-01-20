@@ -8,6 +8,7 @@ import Tec from './component/tec'
 import Guarantee from './component/guarantee'
 import Workspace from './component/workspace'
 import Blogs from './component/blogs'
+import Why from './component/why'
 import Faq  from './component/faq'
 function page() {
   return (
@@ -21,6 +22,7 @@ function page() {
         <Guarantee/>
         <Workspace/>
         <Blogs/>
+        <Why/>
         <Faq/>
 
 

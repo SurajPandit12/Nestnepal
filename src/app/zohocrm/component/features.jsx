@@ -40,7 +40,8 @@ const data = [
       extra: [{
 
        feat: "Free .COM/.NET.ORG Domain",
-       bg:"bg-[#206EAD]"
+       bg:"bg-[#206EAD]",
+       text:"text-white"
       }]
     },
     {
@@ -62,7 +63,8 @@ const data = [
         {feat:"Free .COM/.NET.ORG Domain",
         },
         {greet:"Free .COM/.NET.ORG Domain,(Rs. 4999.00/yr value) - 1 year",
-          bg:"bg-[#206EAD]"
+          bg:"bg-[#206EAD]",
+          text:"text-white"
         }
       ]
     },
@@ -88,7 +90,8 @@ const data = [
         },
         {greet:"Free SSL",},
         {feat:"Free .COM/.NET.ORG Domain",
-           bg:"bg-[#206EAD]"
+           bg:"bg-[#206EAD]",
+           text:"text-white"
         }
       ],
     },
@@ -96,7 +99,7 @@ const data = [
 
   return (
     <div className="container">
-        <div className="text-center container my-10 ">
+        <div className="text-center container my-12 ">
             <h1 className=" text-3xl pb-2 font-montserrat text-[40px] font-bold">
             Choose Your <span className="text-[#206EAD]"> Zoho CRM
             </span> Plan
@@ -146,14 +149,14 @@ const data = [
           </button>
          </div>
        </div>
-<div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mt-6 border  ">
+<div className="grid md:grid-cols-4  grid-cols-2 mt-6 border  ">
        {data.map((data, index) =>
     (
         <div className=" text-sm pt-12 border pb-6 pl-4 " key={index}>
             <p className="font-semibold pb-4 font-dmsans text-[18px]">{data.title}</p>
             <p className="text-sm pb-6 font-dmsans text-[12.6]">{data.description}</p>
             <span className="font-bold text-sm font-dmsans ">RS</span>
-            <span className="font-bold font-dmsans text-3xl text-[38.88px] ">{" "}{select === "Annual" ? "200" : "390"}</span><span className="text-sm font-dmsans">/mo</span>
+            <span className="font-bold font-dmsans text-4xl ">{" "}{select === "Annual" ? "200" : "390"}</span><span className="text-sm font-dmsans">/mo</span>
             <p> </p>
 
             <div className="my-2">
@@ -180,16 +183,19 @@ const data = [
             {data.extra &&
   data.extra.map((extra, index) => (
     <div
-      className="py-2 px-8 flex items-start  font-dmsans text-[12.6px] tracking-[1%]"
+      className="py-2 px-8 flex items-start font-dmsans text-[12.6px] tracking-[1%]"
       key={index}
     >
-      
       <span className="text-green-500 mr-2 font-dmsans text-[14px] font-light">
         &#10004;
       </span>
-    <span className={`${extra.bg} font-dmsans text-white `}>
-  <p className=" text-gray-800">{extra.feat || extra.greet}</p>
-</span>
+      <p
+        className={`${
+          extra.bg ? extra.bg : ""
+        } ${extra.text ? extra.text : ""} font-dmsans`}
+      >
+        {extra.feat || extra.greet}
+      </p>
     </div>
   ))}
         </div>

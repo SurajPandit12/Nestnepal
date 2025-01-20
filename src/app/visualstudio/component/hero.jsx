@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function page() {
   return (
-    <div className='container mt-6'>
+    <div className='container mt-6 relative'>
         <div className='grid grid-cols-1 xl:grid-cols-2  relative
          '>
             <div className='text-black flex flex-col justify-center  items-center w-full  '>
@@ -34,7 +34,7 @@ function page() {
             ></div>
 
 
-        <div className=' mx-auto max-w-screen-lg bg-[#FFFFFF] shadow-2xl rounded-md pb-4 relative left-[38%] -top-40  hidden xl:flex flex-col '>
+        <div className=' mx-auto max-w-screen-lg bg-[#FFFFFF] shadow-2xl rounded-md pb-4 absolute left-[38%] top-80  hidden xl:flex flex-col '>
           
           <div className='flex justify-center items-center py-2'>
                 <Image height={35} width={35} src="/calen.png" alt='calendar'/>

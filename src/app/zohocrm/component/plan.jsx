@@ -4,47 +4,47 @@ function plan() {
 
     const features=[
         {
-            title: 'Google Drive',
+            title: 'Customizable Dashboards',
             description:
-              'With this PC only app, precisely layout and style pictures, text, calendars, and border.',
+              'Track key metrics with personalized and easy-to-read dashboards.',
             imgSrc: '/drive.png',
           },
         {
-            title: 'Google Docs',
+            title: 'Automation Tools',
             description:
-              'Every Nest Nepal account comes with a free 24/7 chat and a phone support.',
+              'Streamline tasks and increase efficiency with automated workflows.',
             imgSrc: '/docs.png',
         },
         {
-            title: 'Google Calendar',
+            title: 'Omni-Channel Communication',
             description:
-              'Schedule your Meetings & Manage your time.',
+              'Engage customers across email, social media, and more.',
             imgSrc: '/calendar.png',
         },
         {
-            title: 'Google Sheets',
+            title: 'Advanced Analytics',
             description:
-            'Build, edit & Share Spreadsheets Online or Offline.',    
+            'Gain insights with detailed reports and performance metrics.',    
                   imgSrc: '/sheet.png',
         },
         {
-            title: 'Google slides',
+            title: 'Lead Management',
             description:
-            'Present your ideas with google slides and stay on top in business',
+            'PTrack, nurture, and convert leads into long-term customers.',
             imgSrc: '/slides.png',
         },
         {
-            title: 'Google Chat',
+            title: 'Collaboration Tools',
             description:
-              'Real time, Real Conversation with Chat.',
+              'Collaborate seamlessly with your team on customer accounts.',
             imgSrc: '/chatting.png',
         },
 
     ]
   return (
-    <div className='container mt-8'>
+    <div className='container my-16'>
      <div className='text-center py-6'>
-     <h1 className='font-montserrat font-bold text-4xl py-2' >All G-Suite plans consist of</h1>
+     <h1 className='font-montserrat font-bold text-4xl py-2' >AAll Zoho CRM plans consist of</h1>
      <p className='font-poppins text-sm text-[#393939]'>Get all these features with our web hosting plans.</p>
      </div>
         <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-y-4'>
