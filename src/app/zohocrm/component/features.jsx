@@ -119,7 +119,7 @@ const data = [
           >
             <span className="text-[19px] font-dmsans">Annual Term</span>
             <p
-              className={`text-xs ${
+              className={`hidden md:flex text-xs ${
                 select === "Annual"
                   ? "text-gray-300"
                   : "text-gray-500"
@@ -138,7 +138,7 @@ const data = [
           >
             <span className="text-lg font-dmsans"> Tri-annually</span>
             <p
-              className={`text-xs ${
+              className={`hidden md:flex text-xs ${
                 select === "Tri-annually"
                   ? "text-gray-300"
                   : "text-gray-500"

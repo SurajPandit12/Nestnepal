@@ -6,9 +6,9 @@ function optimize() {
       
 
        <div className="my-16">
-       <div className=" flex justify-center" > <h2 className="px-3 py-1 text-[#E42527] border border-[#E42527]">Navigating The Perks</h2></div>
+       <div className=" flex justify-center" > <h2 className="px-3 py-1 text-[#E42527] border border-[#E42527] font-poppins text-sm ">Navigating The Perks</h2></div>
 
-       <h1 className="font-montserrat font-bold text-4xl py-4 text-center text-[#E42527] ">Zoho Workplace<span className="text-black"> offering</span>  with Nest Nepal</h1>
+       <h1 className="font-montserrat font-bold text-4xl py-4 text-left md:text-center text-[#E42527] ">Zoho Workplace<span className="text-black"> offering</span>  with Nest Nepal</h1>
         <p className="font-poppins text-sm text-center text-[#393939] max-w-[905px] mx-auto tracking-[1%]">Efficiency Boost: Seamlessly integrate Microsoft 365 with Nest Nepal's services to empower teams and enhance productivity with streamlined operations.</p>
            
        </div>
@@ -18,7 +18,7 @@ function optimize() {
              <p className="font-dmsans font-light  text-xl text-[#6A6A6A]  ">Hassle-Free Transfers</p>
              <h1 className='text-4xl  font-poppins tracking-[1%] pb-8 max-w-lg font-[700] py-6'> Boost Efficiency and Customer Engagement with Zoho CRM
               </h1>
-              <p className="max-w-xl font-dmsans text-sm tracking-[1%] py-4 ">Zoho CRM enables smooth business operations and strong customer relations. Key features of this robust tool include task automation, interaction tracking, and lead management. At Nest Nepal, we provide Zoho CRM, customized by our developers to perform at its best for your business.</p>
+              <p className="max-w-xl font-dmsans text-sm tracking-[1%] py-4 text-[#393939]">Zoho CRM enables smooth business operations and strong customer relations. Key features of this robust tool include task automation, interaction tracking, and lead management. At Nest Nepal, we provide Zoho CRM, customized by our developers to perform at its best for your business.</p>
               <ul className='list-disc text-sm ml-8 font-poppins grid gap-4 text-[#000000] max-w-xl'>
               <li>Track key business metrics in real-time with tailored dashboards.</li>
                   <li>

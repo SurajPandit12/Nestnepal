@@ -35,7 +35,7 @@ function page() {
         <Image height={600} width={800} alt="photoshop" src="/zohohero.png" />
       </div>
   
-      <div className="mx-auto max-w-screen-lg bg-[#FFFFFF] shadow-2xl rounded-md pb-4 absolute left-[46%] top-[340px] hidden 2xl:flex flex-col">
+      <div className="mx-auto max-w-screen-lg bg-[#FFFFFF] shadow-2xl rounded-md pb-4 absolute left-[46%] top-[340px] hidden xl:flex flex-col">
         <div className="flex justify-center items-center py-2">
           <Image height={35} width={35} src="/calend.png" alt="calendar" />
         </div>

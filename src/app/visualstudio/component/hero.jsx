@@ -13,7 +13,7 @@ function page() {
                     <h1 className='font-montserrat font-bold text-5xl'>Visual Studio: The Complete Toolkit For Developers</h1>
                     <p className='font-dmsans text-sm text-[#393939]'>Unlock your coding potential with Visual Studio, the ultimate development toolkit. Build, debug, and deploy apps faster with powerful tools and seamless integrations.</p>
                     <div className="flex  my-4 font-dmsans tracking-[1%]">
-                    <button className="bg-[#B25DB7] px-7 py-3 text-sm text-white font-medium tracking-wide">
+                    <button className="bg-[#B25DB7] px-7 py-3 text-sm text-white font-medium tracking-wide rounded-sm">
                        Contact Us
                          </button>
                        <button className="px-7 py-3 text-sm flex items-center gap-2">

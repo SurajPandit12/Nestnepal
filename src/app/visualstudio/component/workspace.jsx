@@ -6,7 +6,7 @@ function optimize() {
       
 
        <div className="my-16">
-       <div className=" flex justify-center" > <h2 className="px-3 py-1 text-[#B25DB7] border border-[#B25DB7]">Navigating The Perks</h2></div>
+       <div className=" flex justify-center" > <h2 className="px-3 py-1 text-[#B25DB7] border border-[#B25DB7] font-poppins text-sm">Navigating The Perks</h2></div>
 
        <h1 className="font-montserrat font-bold text-4xl py-4 text-center text-[#B25DB7] ">Visual Studio<span className="text-black"> offering with Nest Nepal </span></h1>
         <p className="font-poppins text-sm text-center text-[#393939] max-w-[905px] mx-auto tracking-[1%]">Efficiency Boost: Seamlessly integrate Microsoft 365 with Nest Nepal's services to empower teams and enhance productivity with streamlined operations.</p>
@@ -16,10 +16,10 @@ function optimize() {
          
              <div className="ml-10 container">
              <p className="font-dmsans font-light  text-xl text-[#6A6A6A]  ">Hassle-Free Transfers</p>
-             <h1 className='text-4xl  font-poppins tracking-[1%] pb-8 max-w-lg font-[700] py-6'>Boost Development Productivity with Visual Studio
+             <h1 className='text-4xl  font-poppins tracking-[1%] pb-8 max-w-xl font-[700] py-6'>Boost Development Productivity with Visual Studio
               </h1>
               <p className="max-w-xl font-dmsans text-sm tracking-[1%] py-4 ">Visual Studio makes coding faster and easier with features like code completion, version control, and debugging tools. At Nest Nepal, we’re here to help you unlock its full potential and build apps that perform at their best.</p>
-              <ul className='list-disc text-sm ml-8 font-poppins grid gap-4 text-[#000000] max-w-xl'>
+              <ul className='list-disc text-sm ml-8 font-poppins grid py-6  text-[#393939] max-w-xl'>
               <li>Write code faster with intelligent suggestions and auto-completion.</li>
                   <li>
                   Simplify collaboration with built-in Git version control tools.</li>
@@ -48,7 +48,7 @@ function optimize() {
                 <p className="font-dmsans font-light text-xl text-[#6A6A6A] ">Performance-Driven Hosting</p>
                   <h1 className="text-4xl  font-poppins py-6 font-[700] max-w-[500px]">Unlock Development Potential with Visual Studio</h1>
                   <p className="text-sm font-dmsans font-light max-w-xl">Visual Studio provides tools to manage and optimize apps effectively. With real-time insights, seamless integrations, and an intuitive interface, it helps teams develop high-quality apps faster. Every process is streamlined for speed and quality.</p>
-                  <ul className='list-disc py-8 text-sm ml-8 font-poppins grid gap-4 max-w-xl text-[#000000]'>
+                  <ul className='list-disc py-8 text-sm ml-8 font-poppins grid  max-w-xl text-[#393939]'>
                   <li>Manage your entire codebase with integrated version control.</li>
                   <li>
                   Collaborate seamlessly with your team using real-time updates.</li>

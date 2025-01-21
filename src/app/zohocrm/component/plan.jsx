@@ -44,10 +44,10 @@ function plan() {
   return (
     <div className='container my-16'>
      <div className='text-center py-6'>
-     <h1 className='font-montserrat font-bold text-4xl py-2' >AAll Zoho CRM plans consist of</h1>
+     <h1 className='font-montserrat font-bold text-4xl py-2' >All Zoho CRM plans consist of</h1>
      <p className='font-poppins text-sm text-[#393939]'>Get all these features with our web hosting plans.</p>
      </div>
-        <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-y-4'>
+        <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4'>
            {features.map((data, index)=>
         (
             <div key={index} className='bg-[#FBFBFB] px-4 py-6 mx-6 place-items-center hover:shadow-lg duration-300 transition-all hover:scale-105'>

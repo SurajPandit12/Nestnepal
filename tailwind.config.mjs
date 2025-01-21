@@ -24,6 +24,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         dmsans: ["DM Sans", "sans-serif"],
+        opensans: ["Open Sans", "sans-serif"],
         montserratAlt: ['"Montserrat Alternates"', "sans-serif"],
       },
 
